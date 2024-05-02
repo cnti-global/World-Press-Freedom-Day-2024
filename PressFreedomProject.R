@@ -8,6 +8,7 @@ install.packages("devtools")
 devtools::install_github("vdeminstitute/vdemdata")
 
 
+library(tidyverse)
 library(vdemdata)
 vdem <- vdemdata::vdem
 
